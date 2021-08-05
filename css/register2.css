@@ -1,0 +1,22 @@
+.form_top a:first-child {
+    float: left;
+    color: #666;
+}
+.form_top a:last-child {
+    float: right;
+    color: #333;
+    font-weight: 700;
+    border-bottom: 2px solid #cda751;
+}
+.form_top a:last-child:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #cda751;
+}

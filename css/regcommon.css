@@ -1,0 +1,163 @@
+
+.whi_bc {
+    background-color: #F3F5F5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*position: relative;*/
+}
+
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -66px; /*margin-bottom的负值等于footer高度*/
+}
+
+section {
+    /*height: 766px;*/
+    padding-top: 30px;
+    background-color: #f3f5f5;
+    padding-bottom: 66px;
+}
+
+section form {
+    height: 767px;
+    background-color: #fff;
+}
+
+
+.form_top {
+    height: 65px;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 178px;
+}
+
+.form_top a {
+    position: relative;
+    display: inline-block;
+    width: 315px;
+    height: 64px;
+    line-height: 70px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form_bottom ul {
+    width: 500px;
+    margin: 35px auto 0;
+}
+
+.form_bottom ul li {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.form_bottom ul label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form_bottom input {
+    width: 320px;
+    height: 48px;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.form_bottom input::placeholder {
+    color: #ccc;
+}
+
+.form_bottom li:nth-child(5) input {
+    width: 190px;
+    margin-right: 10px;
+}
+
+.form_bottom li button {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.form_bottom input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+}
+
+input[type=checkbox]::after {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    color: #c6c6c6;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    visibility: visible;
+    text-align: center;
+    content: ' ';
+    border: 1px solid #ddd;
+}
+
+input[type=checkbox]:checked::after {
+    content: "✓";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form_bottom li:nth-child(6) {
+    height: 21px;
+}
+
+i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+ul li:last-child {
+    margin: 60px 0 0 110px;
+}
+
+.register {
+    color: #fff;
+    background-color: #cda751;
+}
+
+.push {
+    height: 150px;
+    clear: both;
+}
+
+.register_foot {
+    clear: both;
+    line-height: 66px;
+    background-color: #fff;
+    color: #999999;
+    text-align: center;
+}
+
+.register_foot div {
+    font-size: 14px;
+    color: #999999;
+}

@@ -1,0 +1,100 @@
+/* body {
+    width: 1920px;
+} */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 118px;
+}
+
+.header_left {
+    float: left;
+    padding: 32px 0;
+}
+
+.header_left h1 {
+    font-size: 26px;
+    /*color: #333333;*/
+}
+
+.header_left h1 a {
+    font-size: 26px;
+    color: #000;
+}
+
+.header_left p {
+    font-size: 14.5px;
+    font-family: Microsoft YaHei;
+    color: #999999;
+    margin: 0 1px;
+    font-weight: normal;
+}
+
+/*.header_left div {*/
+/*    font-size: 14px;*/
+/*    font-family: Microsoft YaHei;*/
+/*    color: #999999;*/
+/*}*/
+
+.header_right {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    margin: 0 17px 0 0;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.header_right img {
+    float: left;
+    margin-right: 13px;
+    width: 17px;
+    height: 17px;
+}
+
+.register_header {
+    height: 118px;
+    background-color: #fff;
+}
+
+.register_header_right {
+    float: right;
+    padding: 52px 0;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.register_header_right img {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 5px 0;
+    vertical-align: middle;
+
+}
+
+
+footer {
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    margin: 23px auto;
+
+}
+
+footer div {
+    font-size: 14px;
+    color: #999999;
+}

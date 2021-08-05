@@ -1,0 +1,11 @@
+.title {
+    font-family: 'icomoon';
+    font-size: 14px;
+    color: #000;
+    padding: 11px 0 11px 3px;
+}
+
+.title em {
+    color: #CDA751;
+    font-size: 14px;
+}
